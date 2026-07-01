@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>I'm Creekflow</title>
+    <style>
+        body {
+            background: #9082ff;
+        }
+        #creekflow {
+            cursor: pointer;
+            max-width: 50vh;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function creekflow() {
+            new Audio("creekflow.opus").play();
+        }
+    </script>
+    <img id="creekflow" src="creekflow.png" alt="Creekflow" onclick="creekflow()"/>
+</body>
+</html>
