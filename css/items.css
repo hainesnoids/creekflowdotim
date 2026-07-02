@@ -1,0 +1,83 @@
+#items {
+    list-style: none;
+    width: 240px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px 1px 1px 0;
+    border-radius: 0 12px 12px 0;
+    display: flex;
+    flex-direction: column;
+
+    transition: transform 1.7s linear;
+    transform: translate(0,0);
+}
+#items > ul {
+    margin: 0;
+    padding: 4px;
+    overflow: scroll;
+    flex: 1;
+}
+#items > ul > li {
+    background: linear-gradient(0deg, #2a2a2a, #000);
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 4px;
+    user-select: none;
+    cursor: pointer;
+    margin-bottom: 4px;
+
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    grid-template-rows: auto auto;
+    gap: 0 4px;
+    grid-template-areas:
+        "item-image item-title"
+        "item-image item-cost";
+}
+#items > ul > li.locked {
+    cursor: not-allowed;
+    background: linear-gradient(0deg, #111, #000);
+    border: 1px solid #777;
+    color: #777;
+    pointer-events: none;
+}
+#items > ul > li.unlocked {
+    cursor: default;
+    background: linear-gradient(0deg, #111, #000);
+    border: 1px solid #1c1;
+    color: #777;
+    pointer-events: none;
+}
+#items > ul > li > span {
+    display: block;
+    pointer-events: none;
+}
+.item-title {
+    grid-area: item-title;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.item-cost {
+    grid-area: item-cost;
+    font-size: 10pt;
+}
+.item-image {
+    grid-area: item-image;
+    width: 48px;
+    height: 48px;
+}
+#count {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    padding: 6px 6px 0;
+    background: #000;
+}
+#power {
+    width: 100%;
+    padding: 0 6px 6px;
+    background: #000;
+    border-radius: 0 0 11px 0;
+}

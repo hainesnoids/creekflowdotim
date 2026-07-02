@@ -1,0 +1,51 @@
+[
+    {
+        "name": "I'm Creekflow",
+        "artist": [ "Vylet Pony" ],
+        "album": "I'm Creekflow",
+        "src": "item-data/album/01 I'm Creekflow.opus",
+        "cover": "item-data/album/01 I'm Creekflow.jpg"
+    },
+    {
+        "name": "Creekflow Crashing Its Mercedes Into a McDonalds",
+        "artist": [ "Vylet Pony" ],
+        "album": "I'm Creekflow",
+        "src": "item-data/album/02 Creekflow Crashing Its Mercedes Into a McDonalds.opus",
+        "cover": "item-data/album/02 Creekflow Crashing Its Mercedes Into a McDonalds.jpg"
+    },
+    {
+        "name": "Creekflow and the Things That Find Us",
+        "artist": [ "Vylet Pony", "Namii" ],
+        "album": "I'm Creekflow",
+        "src": "item-data/album/03 Creekflow and the Things That Find Us.opus",
+        "cover": "item-data/album/03 Creekflow and the Things That Find Us.jpg"
+    },
+    {
+        "name": "The Famous Sound",
+        "artist": [ "Vylet Pony" ],
+        "album": "I'm Creekflow",
+        "src": "item-data/album/04 The Famous Sound.opus",
+        "cover": "item-data/album/04 The Famous Sound.jpg"
+    },
+    {
+        "name": "And Now, A Surprise!",
+        "artist": [ "Vylet Pony" ],
+        "album": "I'm Creekflow",
+        "src": "item-data/album/05 And Now, A Surprise!.opus",
+        "cover": "item-data/album/05 And Now, A Surprise!.jpg"
+    },
+    {
+        "name": "Geekflow",
+        "artist": [ "Vylet Pony" ],
+        "album": "I'm Creekflow",
+        "src": "item-data/album/06 Geekflow.opus",
+        "cover": "item-data/album/06 Geekflow.jpg"
+    },
+    {
+        "name": "Carousel2",
+        "artist": [ "Vylet Pony" ],
+        "album": "I'm Creekflow",
+        "src": "item-data/album/07 Carousel2.opus",
+        "cover": "item-data/album/item.jpg"
+    }
+]

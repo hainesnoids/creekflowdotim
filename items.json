@@ -1,0 +1,96 @@
+[
+  {
+    "id": "album",
+    "name": "I'm Creekflow",
+    "description": "Listen to I'm Creekflow while creekflowing.",
+    "cost": 25,
+    "icon": "item.png",
+    "redeemOnce": true
+  },
+  {
+    "id": "crude_oil",
+    "name": "Crude Oil",
+    "description": "it's addicting",
+    "cost": 240,
+    "icon": "item.png",
+    "redeemOnce": true
+  },
+  {
+    "id": "microwaved_popcorn",
+    "name": "Microwaved Popcorn",
+    "description": "it's not so addicting",
+    "cost": 4388,
+    "icon": "item.png",
+    "redeemOnce": true
+  },
+  {
+    "id": "clicker1",
+    "name": "Clicker",
+    "description": "Click it for you",
+    "icon": "item.svg",
+    "cost": 10
+  },
+  {
+    "id": "clicker2",
+    "name": "Clicker II",
+    "description": "Even more clicker!",
+    "icon": "item.svg",
+    "cost": 100
+  },
+  {
+    "id": "clicker3",
+    "name": "Clicker III",
+    "description": "I'm creekflow",
+    "icon": "item.svg",
+    "cost": 1000
+  },
+  {
+    "id": "clicker4",
+    "name": "Clicker IV",
+    "description": "I'm creek",
+    "icon": "item.svg",
+    "cost": 10000
+  },
+  {
+    "id": "clicker5",
+    "name": "Clicker V",
+    "description": "And I'm flow",
+    "icon": "item.svg",
+    "cost": 100000
+  },
+  {
+    "id": "power1",
+    "name": "Power I",
+    "description": "Power up your mouse",
+    "icon": "item.svg",
+    "cost": 50
+  },
+  {
+    "id": "power2",
+    "name": "Power II",
+    "description": "Power up your mouse even further!",
+    "icon": "item.svg",
+    "cost": 500
+  },
+  {
+    "id": "power3",
+    "name": "Power III",
+    "description": "Yeah",
+    "icon": "item.svg",
+    "cost": 5000
+  },
+  {
+    "id": "power4",
+    "name": "Power IV",
+    "description": "I'm geekflow",
+    "icon": "item.svg",
+    "cost": 50000
+  },
+  {
+    "id": "power5",
+    "name": "Power V",
+    "description": "*sing a song about life*",
+    "icon": "item.svg",
+    "cost": 500000
+  }
+]
