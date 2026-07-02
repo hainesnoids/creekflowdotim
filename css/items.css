@@ -17,7 +17,7 @@
 #items > ul {
     margin: 0;
     padding: 4px;
-    overflow: scroll;
+    overflow-y: scroll;
     flex: 1;
 }
 #items > ul > li {
@@ -42,7 +42,6 @@
     background: linear-gradient(0deg, #111, #000);
     border: 1px solid #777;
     color: #777;
-    pointer-events: none;
 }
 #items > ul > li.unlocked {
     cursor: default;

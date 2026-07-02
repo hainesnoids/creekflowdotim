@@ -15,7 +15,11 @@ let sounds = {
     'wolfkeerc': {
         aC: new AudioContext(),
         aB: null,
-        vol: 0.2
+        vol: 0.1
+    },
+    'money': {
+        aC: new AudioContext(),
+        aB: null
     }
 }
 
@@ -61,6 +65,7 @@ async function promiseAudio(group) {
 }
 
 loadAudio('creekflow', 'raw/creekflow.opus');
-loadAudio('itemRedeem', 'raw/click.ogg');
-loadAudio('stoneMove', 'raw/moving-stone.mp3');
-loadAudio('wolfkeerc', 'raw/button-pressed.oga');
+loadAudio('itemRedeem', 'raw/click_fairytail.opus');
+loadAudio('stoneMove', 'raw/moving-stone.opus');
+loadAudio('wolfkeerc', 'raw/click.opus');
+loadAudio('money', 'raw/money.opus');

@@ -37,8 +37,12 @@
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%) scale(1);
             user-select: none;
+            transition: transform .2s cubic-bezier(0.33, 1, 0.68, 1);
+        }
+        #creekflow:active {
+            transform: translate(-50%,-50%) scale(.9);
         }
         #items.hidden {
             transform: translate(-100%,0);
@@ -61,6 +65,12 @@
         <span id="power">1x Power</span>
     </div>
     <div id="widgets">
+        <div class="crudeoil hidden">
+            <div>
+                <img class="crude-oil" src="item-data/crude_oil/item.png" alt="Crude Oil"/>
+                <div class="crude-oil-shadow"></div>
+            </div>
+        </div>
         <div class="music hidden">
             <div class="inner-player">
                 <audio class="player"></audio>

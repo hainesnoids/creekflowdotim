@@ -53,7 +53,7 @@ function flow(i) {
     elm_count.innerHTML = creekfill(creekflows);
 }
 function glow(i) {
-    mousePower *= i;
+    mousePower += i;
     document.dispatchEvent(new CustomEvent("geekflow"));
     elm_power.innerHTML = geekfill(mousePower);
 }
@@ -65,14 +65,10 @@ function creekflow() {
         case "first_visit":
             if (creekflows >= 10) {
                 promiseAudio("creekflow").then(() => {
-                    const stone = new Audio("raw/moving-stone.mp3");
-                    stone.addEventListener("canplaythrough", () => {
-                        stone.play().then(() => {
-                            elm_items.classList.remove("hidden");
-                            animateTitle();
-                            state = "game";
-                        });
-                    });
+                    playAudio("stoneMove");
+                    elm_items.classList.remove("hidden");
+                    animateTitle();
+                    state = "game";
                 });
             } else {
                 playAudio("creekflow");

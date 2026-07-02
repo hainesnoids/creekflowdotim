@@ -1,8 +1,6 @@
 let items = [];
 let purchasedItems = {};
 
-const sfx_click = new Audio("raw/click.ogg");
-
 foo = {
     clicker1() {
         setInterval(() => {
@@ -40,25 +38,60 @@ foo = {
         },600);
     },
     power1() {
-        glow(2);
+        glow(1);
     },
     power2() {
-        glow(3);
+        glow(2);
     },
     power3() {
         glow(4);
     },
     power4() {
-        glow(5);
+        glow(8);
     },
     power5() {
-        glow(6);
+        glow(16);
     },
     album() {
         document.querySelector("#widgets > div.music").classList.remove("hidden");
     },
     crude_oil() {
         console.info("I can't stop drinking oil! I can't stop drinking oil! I just can't stop, I can't stop drinking crude oil! You know the black stuff, it comes it barrels, I can't stop drinking it! I just can't! It's tantalising, it's addicting, it is a delicacy. I love it! I can't stop drinking oil, crude oil! I can't stop guzzling it, gulping it down! I can't stop drinking crude oil-");
+        const elm_crudeOil = document.querySelector("#widgets > div.crudeoil");
+        const elm_crudeOilShadow = document.querySelector("#widgets > div.crudeoil .crude-oil-shadow");
+        const cooldown_max = 120;
+        let cooldown = cooldown_max;
+        elm_crudeOil.classList.remove("hidden");
+        const keyframes = [
+            { height: "100%" },
+            { height: "0%" },
+        ]
+        const properties = {
+            duration: cooldown_max * 1000,
+            iterations: 1,
+            fill: "forwards"
+        };
+        function redeemOil() {
+            playAudio("money");
+            flow(4000);
+            oilCooldown();
+        }
+        function oilCooldown() {
+            elm_crudeOilShadow.animate(keyframes, properties);
+            cooldown = cooldown_max;
+            let e = setInterval(() => {
+                cooldown--;
+                if (cooldown === 0) {
+                    clearInterval(e);
+                }
+            },1000)
+        }
+        elm_crudeOil.addEventListener("click", () => {
+            if (cooldown === 0) {
+                redeemOil();
+            }
+        });
+        oilCooldown();
     },
     microwaved_popcorn() {
         console.info("hi!");
@@ -105,7 +138,7 @@ function render_item(itm) {
     elm_li.append(elm_title,elm_cost,elm_image);
     elm_li.addEventListener("click",async () => {
         if (creekflows >= itm["cost"]) {
-            await sfx_click.play();
+            playAudio("itemRedeem");
             purchasedItems[id] ? purchasedItems[id]++ : purchasedItems[id] = 1;
             flow(itm["cost"]*-1);
             save_data();

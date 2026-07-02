@@ -84,13 +84,13 @@
     "name": "Power IV",
     "description": "I'm geekflow",
     "icon": "item.svg",
-    "cost": 50000
+    "cost": 25000
   },
   {
     "id": "power5",
     "name": "Power V",
     "description": "*sing a song about life*",
     "icon": "item.svg",
-    "cost": 500000
+    "cost": 250000
   }
 ]
