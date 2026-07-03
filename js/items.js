@@ -57,11 +57,13 @@ foo = {
     },
     crude_oil() {
         console.info("I can't stop drinking oil! I can't stop drinking oil! I just can't stop, I can't stop drinking crude oil! You know the black stuff, it comes it barrels, I can't stop drinking it! I just can't! It's tantalising, it's addicting, it is a delicacy. I love it! I can't stop drinking oil, crude oil! I can't stop guzzling it, gulping it down! I can't stop drinking crude oil-");
-        const elm_crudeOil = document.querySelector("#widgets > div.crudeoil");
+        const elm_crudeOilWidget = document.querySelector("#widgets > div.crudeoil");
+        const elm_crudeOilBase = document.querySelector("#widgets > div.crudeoil > div");
+        const elm_crudeOil = document.querySelector("#widgets > div.crudeoil .crude-oil");
         const elm_crudeOilShadow = document.querySelector("#widgets > div.crudeoil .crude-oil-shadow");
         const cooldown_max = 120;
         let cooldown = cooldown_max;
-        elm_crudeOil.classList.remove("hidden");
+        elm_crudeOilWidget.classList.remove("hidden");
         const keyframes = [
             { height: "100%" },
             { height: "0%" },
@@ -79,14 +81,18 @@ foo = {
         function oilCooldown() {
             elm_crudeOilShadow.animate(keyframes, properties);
             cooldown = cooldown_max;
+            elm_crudeOilBase.style.cursor = "not-allowed";
+            elm_crudeOil.style.filter = "brightness(0.7)";
             let e = setInterval(() => {
                 cooldown--;
                 if (cooldown === 0) {
                     clearInterval(e);
+                    elm_crudeOilBase.style.cursor = "";
+                    elm_crudeOil.style.filter = "";
                 }
             },1000)
         }
-        elm_crudeOil.addEventListener("click", () => {
+        elm_crudeOilBase.addEventListener("click", () => {
             if (cooldown === 0) {
                 redeemOil();
             }
@@ -135,9 +141,12 @@ function render_item(itm) {
     const elm_image = document.createElement("img");
     elm_image.classList.add("item-image");
     elm_image.src = `item-data/${id}/${itm["icon"]}`;
-    elm_li.append(elm_title,elm_cost,elm_image);
+    const elm_count = document.createElement("span");
+    elm_count.classList.add("item-count");
+    elm_count.innerHTML = !purchasedItems[id] || itm["redeemOnce"] ? "" : purchasedItems[id];
+    elm_li.append(elm_title,elm_cost,elm_image,elm_count);
     elm_li.addEventListener("click",async () => {
-        if (creekflows >= itm["cost"]) {
+        if (creekflows >= itm["cost"] && !(itm["redeemOnce"] === true && Object.keys(purchasedItems).includes(id))) {
             playAudio("itemRedeem");
             purchasedItems[id] ? purchasedItems[id]++ : purchasedItems[id] = 1;
             flow(itm["cost"]*-1);
@@ -146,6 +155,8 @@ function render_item(itm) {
             foo[id]();
             if (itm["redeemOnce"] === true) {
                 elm_li.classList.add("unlocked");
+            } else {
+                elm_count.innerHTML = purchasedItems[id];
             }
         }
     });

@@ -56,7 +56,7 @@
     "name": "Clicker V",
     "description": "And I'm flow",
     "icon": "item.svg",
-    "cost": 100000
+    "cost": 50000
   },
   {
     "id": "power1",
@@ -91,6 +91,6 @@
     "name": "Power V",
     "description": "*sing a song about life*",
     "icon": "item.svg",
-    "cost": 250000
+    "cost": 100000
   }
 ]

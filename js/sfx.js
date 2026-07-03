@@ -2,7 +2,7 @@ let sounds = {
     'creekflow': {
         aC: new AudioContext(),
         aB: null,
-        vol: 0.5
+        vol: 0.3
     },
     'itemRedeem': {
         aC: new AudioContext(),
