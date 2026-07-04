@@ -57,6 +57,7 @@
     <link rel="stylesheet" href="css/items.css">
     <link rel="stylesheet" href="css/tooltip.css">
     <link rel="stylesheet" href="css/widgets.css">
+    <link rel="stylesheet" href="css/video-js.css">
 </head>
 <body>
     <img id="creekflow" src="img/creekflow.png" alt="Creekflow" draggable="false" onclick="creekflow()"/>
@@ -67,6 +68,10 @@
         <span id="power">1x Power</span>
     </div>
     <div id="widgets">
+        <div class="top-five-videos hidden">
+            <div class="top-five-videos-player">
+            </div>
+        </div>
         <div class="crudeoil hidden">
             <div>
                 <img class="crude-oil" src="item-data/crude_oil/item.png" alt="Crude Oil"/>
@@ -112,6 +117,8 @@
 </body>
 <script src="js/index.js"></script>
 <script src="js/sfx.js"></script>
+<script src="js/video.min.js"></script>
+<script src="js/player.js"></script>
 <script src="js/items.js"></script>
 <script src="js/tooltip.js"></script>
 <script src="js/playerCore.js"></script>

@@ -1,56 +1,57 @@
 let items = [];
 let purchasedItems = {};
 
+//noinspection JSUnusedGlobalSymbols
 foo = {
     clicker1() {
         setInterval(() => {
             flow(1);
             playAudio("wolfkeerc");
             save_data();
-        },1000);
+        },2000);
     },
     clicker2() {
         setInterval(() => {
-            flow(2);
+            flow(10);
             playAudio("wolfkeerc");
             save_data();
-        },900);
+        },1980);
     },
     clicker3() {
         setInterval(() => {
-            flow(3);
+            flow(100);
             playAudio("wolfkeerc");
             save_data();
-        },800);
+        },1960);
     },
     clicker4() {
         setInterval(() => {
-            flow(4);
+            flow(1000);
             playAudio("wolfkeerc");
             save_data();
-        },700);
+        },1940);
     },
     clicker5() {
         setInterval(() => {
-            flow(5);
+            flow(5000);
             playAudio("wolfkeerc");
             save_data();
-        },600);
+        },1920);
     },
     power1() {
         glow(1);
     },
     power2() {
-        glow(2);
+        glow(10);
     },
     power3() {
-        glow(4);
+        glow(100);
     },
     power4() {
-        glow(8);
+        glow(500);
     },
     power5() {
-        glow(16);
+        glow(2000);
     },
     album() {
         document.querySelector("#widgets > div.music").classList.remove("hidden");
@@ -101,16 +102,36 @@ foo = {
     },
     microwaved_popcorn() {
         console.info("hi!");
+    },
+    async top_five_videos() {
+        const videoWrapper = document.querySelector(".top-five-videos");
+        const videoPlayer = document.querySelector(".top-five-videos-player");
+        const video = initVideo(videoPlayer);
+        video.addEventListener("ended", playNextVideo);
+        videoWrapper.classList.remove("hidden");
+        let videoIndex = 0;
+        const videos = await fetch("item-data/top_five_videos/playlist.json")
+            .then(async (r) => {return await r.json()}) ?? [];
+        function playNextVideo() {
+            videoIndex++;
+            videoIndex %= videos.length;
+            setVideoSource(videos[videoIndex], video);
+        }
+        setVideoSource(videos[0], video);
     }
 }
 
 // load a user's items from save data
 function load_items() {
     purchasedItems = JSON.parse(localStorage.getItem("purchasedItems")) || {};
+    const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
     for (const [key, value] of Object.entries(purchasedItems)) {
-        for (let i = 0; i < value; i++) {
-            foo[key]();
-        }
+        (async () => {
+            for (let i = 0; i < value; i++) {
+                foo[key]();
+                await wait(50);
+            }
+        })()
     }
 }
 

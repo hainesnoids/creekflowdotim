@@ -24,6 +24,14 @@
     "redeemOnce": true
   },
   {
+    "id": "top_five_videos",
+    "name": "Top Five Videos",
+    "description": "\"vid, why are you an item in creekflow clicker?\" rent is due i gotta pay it somehow",
+    "cost": 6969,
+    "icon": "item.png",
+    "redeemOnce": true
+  },
+  {
     "id": "clicker1",
     "name": "Clicker",
     "description": "Click it for you",
