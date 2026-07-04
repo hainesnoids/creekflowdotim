@@ -8,50 +8,50 @@ foo = {
             flow(1);
             playAudio("wolfkeerc");
             save_data();
-        },2000);
+        },1000);
     },
     clicker2() {
         setInterval(() => {
-            flow(10);
+            flow(2);
             playAudio("wolfkeerc");
             save_data();
-        },1980);
+        },990);
     },
     clicker3() {
         setInterval(() => {
-            flow(100);
+            flow(4);
             playAudio("wolfkeerc");
             save_data();
-        },1960);
+        },980);
     },
     clicker4() {
         setInterval(() => {
-            flow(1000);
+            flow(8);
             playAudio("wolfkeerc");
             save_data();
-        },1940);
+        },970);
     },
     clicker5() {
         setInterval(() => {
-            flow(5000);
+            flow(16);
             playAudio("wolfkeerc");
             save_data();
-        },1920);
+        },960);
     },
     power1() {
         glow(1);
     },
     power2() {
-        glow(10);
+        glow(2);
     },
     power3() {
-        glow(100);
+        glow(4);
     },
     power4() {
-        glow(500);
+        glow(8);
     },
     power5() {
-        glow(2000);
+        glow(16);
     },
     album() {
         document.querySelector("#widgets > div.music").classList.remove("hidden");
