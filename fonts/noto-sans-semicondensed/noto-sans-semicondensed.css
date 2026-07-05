@@ -1,0 +1,1081 @@
+/* noto-sans-semicondensed-thin-italic-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 100;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Thin Italic"), local("NotoSansSemiCondensed-ThinItalic"), url(noto-sans-semicondensed-thin-italic-latin.woff2) format("woff2"), url(noto-sans-semicondensed-thin-italic-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-thin-italic-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 100;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Thin Italic"), local("NotoSansSemiCondensed-ThinItalic"), url(noto-sans-semicondensed-thin-italic-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-thin-italic-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-thin-italic-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 100;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Thin Italic"), local("NotoSansSemiCondensed-ThinItalic"), url(noto-sans-semicondensed-thin-italic-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-thin-italic-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-thin-italic-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 100;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Thin Italic"), local("NotoSansSemiCondensed-ThinItalic"), url(noto-sans-semicondensed-thin-italic-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-thin-italic-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-thin-italic-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 100;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Thin Italic"), local("NotoSansSemiCondensed-ThinItalic"), url(noto-sans-semicondensed-thin-italic-greek.woff2) format("woff2"), url(noto-sans-semicondensed-thin-italic-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-thin-italic-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 100;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Thin Italic"), local("NotoSansSemiCondensed-ThinItalic"), url(noto-sans-semicondensed-thin-italic-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-thin-italic-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-thin-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 100;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Thin"), local("NotoSansSemiCondensed-Thin"), url(noto-sans-semicondensed-thin-latin.woff2) format("woff2"), url(noto-sans-semicondensed-thin-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-thin-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 100;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Thin"), local("NotoSansSemiCondensed-Thin"), url(noto-sans-semicondensed-thin-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-thin-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-thin-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 100;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Thin"), local("NotoSansSemiCondensed-Thin"), url(noto-sans-semicondensed-thin-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-thin-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-thin-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 100;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Thin"), local("NotoSansSemiCondensed-Thin"), url(noto-sans-semicondensed-thin-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-thin-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-thin-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 100;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Thin"), local("NotoSansSemiCondensed-Thin"), url(noto-sans-semicondensed-thin-greek.woff2) format("woff2"), url(noto-sans-semicondensed-thin-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-thin-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 100;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Thin"), local("NotoSansSemiCondensed-Thin"), url(noto-sans-semicondensed-thin-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-thin-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-semibold-italic-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 600;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed SemiBold Italic"), local("NotoSansSemiCondensed-SemiBoldItalic"), url(noto-sans-semicondensed-semibold-italic-latin.woff2) format("woff2"), url(noto-sans-semicondensed-semibold-italic-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-semibold-italic-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 600;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed SemiBold Italic"), local("NotoSansSemiCondensed-SemiBoldItalic"), url(noto-sans-semicondensed-semibold-italic-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-semibold-italic-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-semibold-italic-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 600;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed SemiBold Italic"), local("NotoSansSemiCondensed-SemiBoldItalic"), url(noto-sans-semicondensed-semibold-italic-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-semibold-italic-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-semibold-italic-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 600;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed SemiBold Italic"), local("NotoSansSemiCondensed-SemiBoldItalic"), url(noto-sans-semicondensed-semibold-italic-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-semibold-italic-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-semibold-italic-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 600;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed SemiBold Italic"), local("NotoSansSemiCondensed-SemiBoldItalic"), url(noto-sans-semicondensed-semibold-italic-greek.woff2) format("woff2"), url(noto-sans-semicondensed-semibold-italic-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-semibold-italic-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 600;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed SemiBold Italic"), local("NotoSansSemiCondensed-SemiBoldItalic"), url(noto-sans-semicondensed-semibold-italic-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-semibold-italic-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-semibold-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 600;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed SemiBold"), local("NotoSansSemiCondensed-SemiBold"), url(noto-sans-semicondensed-semibold-latin.woff2) format("woff2"), url(noto-sans-semicondensed-semibold-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-semibold-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 600;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed SemiBold"), local("NotoSansSemiCondensed-SemiBold"), url(noto-sans-semicondensed-semibold-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-semibold-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-semibold-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 600;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed SemiBold"), local("NotoSansSemiCondensed-SemiBold"), url(noto-sans-semicondensed-semibold-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-semibold-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-semibold-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 600;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed SemiBold"), local("NotoSansSemiCondensed-SemiBold"), url(noto-sans-semicondensed-semibold-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-semibold-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-semibold-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 600;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed SemiBold"), local("NotoSansSemiCondensed-SemiBold"), url(noto-sans-semicondensed-semibold-greek.woff2) format("woff2"), url(noto-sans-semicondensed-semibold-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-semibold-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 600;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed SemiBold"), local("NotoSansSemiCondensed-SemiBold"), url(noto-sans-semicondensed-semibold-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-semibold-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Regular"), local("NotoSansSemiCondensed-Regular"), url(noto-sans-semicondensed-latin.woff2) format("woff2"), url(noto-sans-semicondensed-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Regular"), local("NotoSansSemiCondensed-Regular"), url(noto-sans-semicondensed-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Regular"), local("NotoSansSemiCondensed-Regular"), url(noto-sans-semicondensed-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Regular"), local("NotoSansSemiCondensed-Regular"), url(noto-sans-semicondensed-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Regular"), local("NotoSansSemiCondensed-Regular"), url(noto-sans-semicondensed-greek.woff2) format("woff2"), url(noto-sans-semicondensed-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Regular"), local("NotoSansSemiCondensed-Regular"), url(noto-sans-semicondensed-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-medium-italic-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 500;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Medium Italic"), local("NotoSansSemiCondensed-MediumItalic"), url(noto-sans-semicondensed-medium-italic-latin.woff2) format("woff2"), url(noto-sans-semicondensed-medium-italic-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-medium-italic-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 500;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Medium Italic"), local("NotoSansSemiCondensed-MediumItalic"), url(noto-sans-semicondensed-medium-italic-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-medium-italic-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-medium-italic-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 500;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Medium Italic"), local("NotoSansSemiCondensed-MediumItalic"), url(noto-sans-semicondensed-medium-italic-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-medium-italic-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-medium-italic-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 500;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Medium Italic"), local("NotoSansSemiCondensed-MediumItalic"), url(noto-sans-semicondensed-medium-italic-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-medium-italic-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-medium-italic-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 500;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Medium Italic"), local("NotoSansSemiCondensed-MediumItalic"), url(noto-sans-semicondensed-medium-italic-greek.woff2) format("woff2"), url(noto-sans-semicondensed-medium-italic-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-medium-italic-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 500;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Medium Italic"), local("NotoSansSemiCondensed-MediumItalic"), url(noto-sans-semicondensed-medium-italic-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-medium-italic-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-medium-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 500;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Medium"), local("NotoSansSemiCondensed-Medium"), url(noto-sans-semicondensed-medium-latin.woff2) format("woff2"), url(noto-sans-semicondensed-medium-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-medium-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 500;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Medium"), local("NotoSansSemiCondensed-Medium"), url(noto-sans-semicondensed-medium-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-medium-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-medium-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 500;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Medium"), local("NotoSansSemiCondensed-Medium"), url(noto-sans-semicondensed-medium-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-medium-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-medium-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 500;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Medium"), local("NotoSansSemiCondensed-Medium"), url(noto-sans-semicondensed-medium-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-medium-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-medium-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 500;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Medium"), local("NotoSansSemiCondensed-Medium"), url(noto-sans-semicondensed-medium-greek.woff2) format("woff2"), url(noto-sans-semicondensed-medium-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-medium-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 500;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Medium"), local("NotoSansSemiCondensed-Medium"), url(noto-sans-semicondensed-medium-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-medium-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-light-italic-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 300;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Light Italic"), local("NotoSansSemiCondensed-LightItalic"), url(noto-sans-semicondensed-light-italic-latin.woff2) format("woff2"), url(noto-sans-semicondensed-light-italic-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-light-italic-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 300;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Light Italic"), local("NotoSansSemiCondensed-LightItalic"), url(noto-sans-semicondensed-light-italic-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-light-italic-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-light-italic-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 300;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Light Italic"), local("NotoSansSemiCondensed-LightItalic"), url(noto-sans-semicondensed-light-italic-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-light-italic-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-light-italic-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 300;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Light Italic"), local("NotoSansSemiCondensed-LightItalic"), url(noto-sans-semicondensed-light-italic-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-light-italic-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-light-italic-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 300;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Light Italic"), local("NotoSansSemiCondensed-LightItalic"), url(noto-sans-semicondensed-light-italic-greek.woff2) format("woff2"), url(noto-sans-semicondensed-light-italic-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-light-italic-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 300;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Light Italic"), local("NotoSansSemiCondensed-LightItalic"), url(noto-sans-semicondensed-light-italic-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-light-italic-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-light-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 300;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Light"), local("NotoSansSemiCondensed-Light"), url(noto-sans-semicondensed-light-latin.woff2) format("woff2"), url(noto-sans-semicondensed-light-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-light-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 300;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Light"), local("NotoSansSemiCondensed-Light"), url(noto-sans-semicondensed-light-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-light-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-light-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 300;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Light"), local("NotoSansSemiCondensed-Light"), url(noto-sans-semicondensed-light-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-light-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-light-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 300;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Light"), local("NotoSansSemiCondensed-Light"), url(noto-sans-semicondensed-light-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-light-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-light-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 300;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Light"), local("NotoSansSemiCondensed-Light"), url(noto-sans-semicondensed-light-greek.woff2) format("woff2"), url(noto-sans-semicondensed-light-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-light-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 300;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Light"), local("NotoSansSemiCondensed-Light"), url(noto-sans-semicondensed-light-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-light-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-italic-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 400;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Italic"), local("NotoSansSemiCondensed-Italic"), url(noto-sans-semicondensed-italic-latin.woff2) format("woff2"), url(noto-sans-semicondensed-italic-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-italic-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 400;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Italic"), local("NotoSansSemiCondensed-Italic"), url(noto-sans-semicondensed-italic-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-italic-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-italic-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 400;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Italic"), local("NotoSansSemiCondensed-Italic"), url(noto-sans-semicondensed-italic-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-italic-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-italic-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 400;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Italic"), local("NotoSansSemiCondensed-Italic"), url(noto-sans-semicondensed-italic-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-italic-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-italic-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 400;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Italic"), local("NotoSansSemiCondensed-Italic"), url(noto-sans-semicondensed-italic-greek.woff2) format("woff2"), url(noto-sans-semicondensed-italic-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-italic-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 400;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Italic"), local("NotoSansSemiCondensed-Italic"), url(noto-sans-semicondensed-italic-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-italic-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extralight-italic-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 200;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraLight Italic"), local("NotoSansSemiCondensed-ExtraLightItalic"), url(noto-sans-semicondensed-extralight-italic-latin.woff2) format("woff2"), url(noto-sans-semicondensed-extralight-italic-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extralight-italic-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 200;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraLight Italic"), local("NotoSansSemiCondensed-ExtraLightItalic"), url(noto-sans-semicondensed-extralight-italic-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-extralight-italic-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extralight-italic-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 200;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraLight Italic"), local("NotoSansSemiCondensed-ExtraLightItalic"), url(noto-sans-semicondensed-extralight-italic-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-extralight-italic-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extralight-italic-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 200;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraLight Italic"), local("NotoSansSemiCondensed-ExtraLightItalic"), url(noto-sans-semicondensed-extralight-italic-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-extralight-italic-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extralight-italic-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 200;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraLight Italic"), local("NotoSansSemiCondensed-ExtraLightItalic"), url(noto-sans-semicondensed-extralight-italic-greek.woff2) format("woff2"), url(noto-sans-semicondensed-extralight-italic-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extralight-italic-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 200;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraLight Italic"), local("NotoSansSemiCondensed-ExtraLightItalic"), url(noto-sans-semicondensed-extralight-italic-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-extralight-italic-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extralight-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 200;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraLight"), local("NotoSansSemiCondensed-ExtraLight"), url(noto-sans-semicondensed-extralight-latin.woff2) format("woff2"), url(noto-sans-semicondensed-extralight-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extralight-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 200;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraLight"), local("NotoSansSemiCondensed-ExtraLight"), url(noto-sans-semicondensed-extralight-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-extralight-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extralight-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 200;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraLight"), local("NotoSansSemiCondensed-ExtraLight"), url(noto-sans-semicondensed-extralight-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-extralight-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extralight-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 200;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraLight"), local("NotoSansSemiCondensed-ExtraLight"), url(noto-sans-semicondensed-extralight-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-extralight-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extralight-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 200;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraLight"), local("NotoSansSemiCondensed-ExtraLight"), url(noto-sans-semicondensed-extralight-greek.woff2) format("woff2"), url(noto-sans-semicondensed-extralight-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extralight-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 200;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraLight"), local("NotoSansSemiCondensed-ExtraLight"), url(noto-sans-semicondensed-extralight-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-extralight-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extrabold-italic-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 800;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraBold Italic"), local("NotoSansSemiCondensed-ExtraBoldItalic"), url(noto-sans-semicondensed-extrabold-italic-latin.woff2) format("woff2"), url(noto-sans-semicondensed-extrabold-italic-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extrabold-italic-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 800;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraBold Italic"), local("NotoSansSemiCondensed-ExtraBoldItalic"), url(noto-sans-semicondensed-extrabold-italic-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-extrabold-italic-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extrabold-italic-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 800;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraBold Italic"), local("NotoSansSemiCondensed-ExtraBoldItalic"), url(noto-sans-semicondensed-extrabold-italic-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-extrabold-italic-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extrabold-italic-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 800;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraBold Italic"), local("NotoSansSemiCondensed-ExtraBoldItalic"), url(noto-sans-semicondensed-extrabold-italic-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-extrabold-italic-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extrabold-italic-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 800;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraBold Italic"), local("NotoSansSemiCondensed-ExtraBoldItalic"), url(noto-sans-semicondensed-extrabold-italic-greek.woff2) format("woff2"), url(noto-sans-semicondensed-extrabold-italic-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extrabold-italic-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 800;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraBold Italic"), local("NotoSansSemiCondensed-ExtraBoldItalic"), url(noto-sans-semicondensed-extrabold-italic-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-extrabold-italic-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extrabold-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 800;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraBold"), local("NotoSansSemiCondensed-ExtraBold"), url(noto-sans-semicondensed-extrabold-latin.woff2) format("woff2"), url(noto-sans-semicondensed-extrabold-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extrabold-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 800;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraBold"), local("NotoSansSemiCondensed-ExtraBold"), url(noto-sans-semicondensed-extrabold-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-extrabold-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extrabold-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 800;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraBold"), local("NotoSansSemiCondensed-ExtraBold"), url(noto-sans-semicondensed-extrabold-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-extrabold-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extrabold-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 800;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraBold"), local("NotoSansSemiCondensed-ExtraBold"), url(noto-sans-semicondensed-extrabold-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-extrabold-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extrabold-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 800;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraBold"), local("NotoSansSemiCondensed-ExtraBold"), url(noto-sans-semicondensed-extrabold-greek.woff2) format("woff2"), url(noto-sans-semicondensed-extrabold-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-extrabold-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 800;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed ExtraBold"), local("NotoSansSemiCondensed-ExtraBold"), url(noto-sans-semicondensed-extrabold-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-extrabold-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-bold-italic-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 700;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Bold Italic"), local("NotoSansSemiCondensed-BoldItalic"), url(noto-sans-semicondensed-bold-italic-latin.woff2) format("woff2"), url(noto-sans-semicondensed-bold-italic-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-bold-italic-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 700;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Bold Italic"), local("NotoSansSemiCondensed-BoldItalic"), url(noto-sans-semicondensed-bold-italic-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-bold-italic-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-bold-italic-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 700;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Bold Italic"), local("NotoSansSemiCondensed-BoldItalic"), url(noto-sans-semicondensed-bold-italic-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-bold-italic-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-bold-italic-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 700;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Bold Italic"), local("NotoSansSemiCondensed-BoldItalic"), url(noto-sans-semicondensed-bold-italic-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-bold-italic-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-bold-italic-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 700;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Bold Italic"), local("NotoSansSemiCondensed-BoldItalic"), url(noto-sans-semicondensed-bold-italic-greek.woff2) format("woff2"), url(noto-sans-semicondensed-bold-italic-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-bold-italic-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 700;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Bold Italic"), local("NotoSansSemiCondensed-BoldItalic"), url(noto-sans-semicondensed-bold-italic-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-bold-italic-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-bold-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Bold"), local("NotoSansSemiCondensed-Bold"), url(noto-sans-semicondensed-bold-latin.woff2) format("woff2"), url(noto-sans-semicondensed-bold-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-bold-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Bold"), local("NotoSansSemiCondensed-Bold"), url(noto-sans-semicondensed-bold-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-bold-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-bold-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Bold"), local("NotoSansSemiCondensed-Bold"), url(noto-sans-semicondensed-bold-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-bold-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-bold-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Bold"), local("NotoSansSemiCondensed-Bold"), url(noto-sans-semicondensed-bold-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-bold-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-bold-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Bold"), local("NotoSansSemiCondensed-Bold"), url(noto-sans-semicondensed-bold-greek.woff2) format("woff2"), url(noto-sans-semicondensed-bold-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-bold-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Bold"), local("NotoSansSemiCondensed-Bold"), url(noto-sans-semicondensed-bold-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-bold-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-black-italic-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 900;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Black Italic"), local("NotoSansSemiCondensed-BlackItalic"), url(noto-sans-semicondensed-black-italic-latin.woff2) format("woff2"), url(noto-sans-semicondensed-black-italic-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-black-italic-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 900;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Black Italic"), local("NotoSansSemiCondensed-BlackItalic"), url(noto-sans-semicondensed-black-italic-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-black-italic-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-black-italic-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 900;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Black Italic"), local("NotoSansSemiCondensed-BlackItalic"), url(noto-sans-semicondensed-black-italic-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-black-italic-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-black-italic-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 900;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Black Italic"), local("NotoSansSemiCondensed-BlackItalic"), url(noto-sans-semicondensed-black-italic-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-black-italic-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-black-italic-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 900;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Black Italic"), local("NotoSansSemiCondensed-BlackItalic"), url(noto-sans-semicondensed-black-italic-greek.woff2) format("woff2"), url(noto-sans-semicondensed-black-italic-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-black-italic-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: italic;
+	font-weight: 900;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Black Italic"), local("NotoSansSemiCondensed-BlackItalic"), url(noto-sans-semicondensed-black-italic-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-black-italic-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-black-latin */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 900;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Black"), local("NotoSansSemiCondensed-Black"), url(noto-sans-semicondensed-black-latin.woff2) format("woff2"), url(noto-sans-semicondensed-black-latin.woff) format("woff");
+	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-black-latin-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 900;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Black"), local("NotoSansSemiCondensed-Black"), url(noto-sans-semicondensed-black-latin-ext.woff2) format("woff2"), url(noto-sans-semicondensed-black-latin-ext.woff) format("woff");
+	unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20CF,U+2C60-2C7F,U+A720-A7FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-black-cyrillic */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 900;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Black"), local("NotoSansSemiCondensed-Black"), url(noto-sans-semicondensed-black-cyrillic.woff2) format("woff2"), url(noto-sans-semicondensed-black-cyrillic.woff) format("woff");
+	unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-black-cyrillic-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 900;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Black"), local("NotoSansSemiCondensed-Black"), url(noto-sans-semicondensed-black-cyrillic-ext.woff2) format("woff2"), url(noto-sans-semicondensed-black-cyrillic-ext.woff) format("woff");
+	unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-black-greek */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 900;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Black"), local("NotoSansSemiCondensed-Black"), url(noto-sans-semicondensed-black-greek.woff2) format("woff2"), url(noto-sans-semicondensed-black-greek.woff) format("woff");
+	unicode-range: U+0370-03FF;
+	font-display: swap;
+}
+/* noto-sans-semicondensed-black-greek-ext */
+@font-face {
+	font-family: "Noto Sans SemiCondensed";
+	font-style: normal;
+	font-weight: 900;
+	font-stretch: 87.5%;
+	src: local("Noto Sans SemiCondensed Black"), local("NotoSansSemiCondensed-Black"), url(noto-sans-semicondensed-black-greek-ext.woff2) format("woff2"), url(noto-sans-semicondensed-black-greek-ext.woff) format("woff");
+	unicode-range: U+1F00-1FFF;
+	font-display: swap;
+}
+
