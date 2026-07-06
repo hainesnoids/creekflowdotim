@@ -34,7 +34,7 @@
             font-family: "Noto Sans", Arial, Helvetica, sans-serif;
         }
         #creekflow {
-            cursor: pointer;
+            cursor: var(--cursor-pointer), pointer;
             max-width: 50vh;
             position: absolute;
             top: 50%;
@@ -58,6 +58,7 @@
     <link rel="stylesheet" href="css/tooltip.css">
     <link rel="stylesheet" href="css/widgets.css">
     <link rel="stylesheet" href="css/video-js.css">
+    <link rel="stylesheet" href="css/buttons.css">
 </head>
 <body>
     <img id="creekflow" src="img/creekflow.png" alt="Creekflow" draggable="false" onclick="creekflow()"/>
@@ -110,13 +111,45 @@
                 </div>
             </div>
         </div>
+        <div class="buttons">
+            <button id="configure" sfx="true" onclick="document.querySelector('.settings-dialog').showModal()"><img src="img/configure.svg" alt="Configure"/></button>
+        </div>
     </div>
     <div class="tooltip-container">
         <div id="tooltip"></div>
     </div>
+    <dialog id="settings" class="settings-dialog">
+        <h1>Settings</h1>
+        <div class="settings">
+            <div class="setting">
+                <label for="volume-buttons">Buttons and Interactable Items</label>
+                <input id="volume-buttons" type="range" min="0" max="100" value="100" step="10" list="volume-buttons-markers"/>
+                <datalist id="volume-buttons-markers">
+                    <option value="100"></option>
+                </datalist>
+            </div>
+            <div class="setting">
+                <label for="volume-click">Audible Clicks</label>
+                <input id="volume-click" type="range" min="0" max="100" value="10" step="10" list="volume-buttons-click"/>
+                <datalist id="volume-buttons-click">
+                    <option value="10"></option>
+                </datalist>
+            </div>
+            <div class="setting">
+                <label for="volume-background">Background Items</label>
+                <input id="volume-background" type="range" min="0" max="100" value="30" step="10" list="volume-buttons-background"/>
+                <datalist id="volume-buttons-background">
+                    <option value="30"></option>
+                </datalist>
+            </div>
+            <span>Game by <a target="_blank" href="//ws4k.net">maudpuzzie/hainesnoids</a></span>
+        </div>
+        <button sfx="true" onclick="settings.close()">Close</button>
+    </dialog>
 </body>
 <script src="js/index.js"></script>
 <script src="js/sfx.js"></script>
+<script src="js/buttons.js"></script>
 <script src="js/video.min.js"></script>
 <script src="js/player.js"></script>
 <script src="js/items.js"></script>

@@ -1,0 +1,12 @@
+a {
+    color: #3195f9;
+    cursor: var(--cursor-pointer), pointer;
+}
+a:visited {
+    color: #a663ed;
+}
+body {
+    --cursor-default: url("../img/cursor-default.svg") 12 8;
+    --cursor-pointer: url("../img/cursor-pointer.svg") 15 10;
+    cursor: var(--cursor-default), default;
+}

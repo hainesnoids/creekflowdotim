@@ -27,7 +27,7 @@
     border-radius: 6px;
     padding: 4px;
     user-select: none;
-    cursor: pointer;
+    cursor: var(--cursor-pointer), pointer;
     margin-bottom: 4px;
 
     display: grid;
@@ -45,7 +45,7 @@
     color: #777;
 }
 #items > ul > li.unlocked {
-    cursor: default;
+    cursor: var(--cursor-default), default;
     background: linear-gradient(0deg, #111, #000);
     border: 1px solid #1c1;
     color: #777;

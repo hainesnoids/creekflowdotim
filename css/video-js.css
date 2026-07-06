@@ -604,7 +604,7 @@ body.vjs-pip-window .video-js {
 
 .vjs-disabled {
   opacity: 0.5;
-  cursor: default;
+  cursor: var(--cursor-default), default;
 }
 
 .video-js .vjs-offscreen {
@@ -650,7 +650,7 @@ body.vjs-pip-window .video-js {
   padding: 0;
   margin-top: -0.81666em;
   margin-left: -1.5em;
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
   opacity: 1;
   border: 0.06666em solid #fff;
   background-color: #2B333F;
@@ -713,7 +713,7 @@ body.vjs-pip-window .video-js {
 }
 
 .video-js .vjs-control.vjs-close-button {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
   height: 3em;
   position: absolute;
   right: 0;
@@ -738,11 +738,11 @@ body.vjs-pip-window .video-js {
 }
 
 .vjs-menu-button {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
 }
 
 .vjs-menu-button.vjs-disabled {
-  cursor: default;
+  cursor: var(--cursor-default), default;
 }
 
 .vjs-workinghover .vjs-menu-button.vjs-disabled:hover .vjs-menu {
@@ -811,7 +811,7 @@ body.vjs-pip-window .video-js {
   padding: 0;
   margin: 0 0 0.3em 0;
   font-weight: bold;
-  cursor: default;
+  cursor: var(--cursor-default), default;
 }
 
 .vjs-menu-button-popup .vjs-menu {
@@ -1002,7 +1002,7 @@ body.vjs-pip-window .video-js {
 }
 
 .video-js .vjs-progress-control {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
   flex: auto;
   display: flex;
   align-items: center;
@@ -1011,7 +1011,7 @@ body.vjs-pip-window .video-js {
 }
 
 .video-js .vjs-progress-control.disabled {
-  cursor: default;
+  cursor: var(--cursor-default), default;
 }
 
 .vjs-live .vjs-progress-control {
@@ -1151,7 +1151,7 @@ body.vjs-pip-window .video-js {
 
 .video-js .vjs-slider {
   position: relative;
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
   padding: 0;
   margin: 0 0.45em 0 0.45em;
   /* iOS Safari */
@@ -1166,7 +1166,7 @@ body.vjs-pip-window .video-js {
 }
 
 .video-js .vjs-slider.disabled {
-  cursor: default;
+  cursor: var(--cursor-default), default;
 }
 
 .video-js .vjs-slider:focus {
@@ -1179,11 +1179,11 @@ body.vjs-pip-window .video-js {
 }
 
 .video-js .vjs-mute-control {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
   flex: none;
 }
 .video-js .vjs-volume-control {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
   margin-right: 1em;
   display: flex;
 }
@@ -1397,7 +1397,7 @@ body.vjs-pip-window .video-js {
 .vjs-poster {
   display: inline-block;
   vertical-align: middle;
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
   margin: 0;
   padding: 0;
   position: absolute;
@@ -1440,7 +1440,7 @@ body.vjs-pip-window .video-js {
 
 .video-js .vjs-seek-to-live-control {
   align-items: center;
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
   flex: none;
   display: inline-flex;
   height: 100%;
@@ -1512,7 +1512,7 @@ body.vjs-pip-window .video-js {
 }
 
 .video-js .vjs-play-control {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
 }
 
 .video-js .vjs-play-control .vjs-icon-placeholder {
@@ -1578,7 +1578,7 @@ video::-webkit-media-text-track-display {
   }
 }
 .video-js .vjs-picture-in-picture-control {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
   flex: none;
 }
 .video-js.vjs-audio-only-mode .vjs-picture-in-picture-control,
@@ -1587,7 +1587,7 @@ video::-webkit-media-text-track-display {
 }
 
 .video-js .vjs-fullscreen-control {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
   flex: none;
 }
 .video-js.vjs-audio-only-mode .vjs-fullscreen-control,
@@ -1885,7 +1885,7 @@ video::-webkit-media-text-track-display {
   background-color: #fff;
   background-image: linear-gradient(-180deg, #fff 88%, rgb(114.9141509434, 132.7028301887, 159.3858490566) 100%);
   color: #2B333F;
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
   border-radius: 2px;
 }
 
@@ -1929,22 +1929,22 @@ video::-webkit-media-text-track-display {
 }
 
 .video-js .vjs-skip-forward-5 {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
 }
 .video-js .vjs-skip-forward-10 {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
 }
 .video-js .vjs-skip-forward-30 {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
 }
 .video-js .vjs-skip-backward-5 {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
 }
 .video-js .vjs-skip-backward-10 {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
 }
 .video-js .vjs-skip-backward-30 {
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
 }
 .video-js .vjs-transient-button {
   position: absolute;
@@ -1953,7 +1953,7 @@ video::-webkit-media-text-track-display {
   align-items: center;
   justify-content: center;
   background-color: rgba(50, 50, 50, 0.5);
-  cursor: pointer;
+  cursor: var(--cursor-pointer), pointer;
   opacity: 1;
   transition: opacity 1s;
 }

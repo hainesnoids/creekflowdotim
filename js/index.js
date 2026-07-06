@@ -21,6 +21,7 @@ function load_data() {
 function save_data() {
     localStorage.setItem("creekflows", String(creekflows));
     localStorage.setItem("purchasedItems", JSON.stringify(purchasedItems));
+    localStorage.setItem("itemVolumes", JSON.stringify(itemVolumes));
 }
 
 // on the first visit
