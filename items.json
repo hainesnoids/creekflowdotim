@@ -32,6 +32,14 @@
     "redeemOnce": true
   },
   {
+    "id": "hellbeast",
+    "name": "Hellbeast",
+    "description": "unleash the hellbeast",
+    "icon": "item.png",
+    "cost": 1000000,
+    "redeemOnce": true
+  },
+  {
     "id": "clicker1",
     "name": "Clicker",
     "description": "Click it for you",
