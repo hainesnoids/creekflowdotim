@@ -10,20 +10,3 @@ body {
     --cursor-pointer: url("../img/cursor-pointer.svg") 15 10;
     cursor: var(--cursor-default), default;
 }
-.info {
-    width: 16px;
-    height: 16px;
-    background-color: transparent;
-    background-image: url("../img/info.svg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border: none;
-    padding: 0;
-    z-index: 4;
-    cursor: var(--cursor-pointer), pointer;
-}
-.anchor-top-right {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
