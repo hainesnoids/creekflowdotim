@@ -76,7 +76,7 @@ foo = {
         };
         function redeemOil() {
             playAudio("money");
-            flow(4000);
+            elow(4000 * oMult);
             oilCooldown();
         }
         function oilCooldown() {
@@ -159,6 +159,12 @@ foo = {
             setTimeout(bounce, 1000 / framerate);
         }
         bounce();
+    },
+    rebirth() {
+        save_data();
+        playAudio("rebirth");
+        document.body.classList.add("rebirth");
+        setTimeout(() => {location.pathname = "/paths"},2000);
     }
 }
 
@@ -169,6 +175,7 @@ function load_items() {
     for (const [key, value] of Object.entries(purchasedItems)) {
         (async () => {
             for (let i = 0; i < value; i++) {
+                if (key === "rebirth") return // no refresh loop please :aga:
                 try {
                     foo[key]();
                 } catch(e) {
@@ -215,7 +222,7 @@ function render_item(itm) {
         if (creekflows >= itm["cost"] && !(itm["redeemOnce"] === true && Object.keys(purchasedItems).includes(id))) {
             playAudio("itemRedeem");
             purchasedItems[id] ? purchasedItems[id]++ : purchasedItems[id] = 1;
-            flow(itm["cost"]*-1);
+            elow(itm["cost"]*-1);
             save_data();
             try {
                 foo[id]();

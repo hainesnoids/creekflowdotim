@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Creekflow Clicker</title>
+    <!-- Metadata -->
+    <meta name="application-name" content="creekflow">
+    <meta name="author" content="creekflow">
+    <meta name="description" content="creekflow">
+    <meta name="keywords" content="creekflow">
+    <meta property="og:title" content="creekflow">
+    <meta property="og:description" content="creekflow">
+    <meta property="og:image" content="/img/creekflow.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="creekflow">
+    <meta name="twitter:description" content="creekflow">
+    <meta name="twitter:image" content="/img/creekflow.png">
+    <link rel="apple-touch-icon" href="/img/creekflow.png">
+    <meta name="theme-color" content="#9082ff">
+    <!-- Stylesheets -->
+    <style>
+        @import url("fonts/noto-sans/noto-sans.css");
+        * {
+            box-sizing: border-box;
+            position: relative;
+        }
+        body {
+            background: #000;
+            margin: 0;
+            height: 100vh;
+            overflow: hidden;
+            font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+        }
+        body::before {
+            content: "";
+            display: block;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1001;
+            background: #fff;
+            opacity: 1;
+            transition: opacity 1s cubic-bezier(0.5, 1, 0.89, 1);
+        }
+        body.loaded::before {
+            opacity: 0;
+            pointer-events: none;
+        }
+        body.final::before {
+            transition: opacity 1s cubic-bezier(0.5, 1, 0.89, 1) 2s;
+            opacity: 1;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/items.css">
+    <link rel="stylesheet" href="css/tooltip.css">
+    <link rel="stylesheet" href="css/widgets.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/paths.css">
+</head>
+<body>
+    <audio class="player" src="raw/paths-ambience.opus" autoplay loop></audio>
+    <div class="tooltip-container">
+        <div id="tooltip"></div>
+    </div>
+    <div id="parallax-stars"></div>
+    <div id="paths">
+        <div id="paths-scene">
+            <ul></ul>
+            <img class="lampert" src="img/lampert.png" alt="" style="mix-blend-mode: lighten;position:absolute;left:10000px;top:1400px;pointer-events:none;">
+        </div>
+    </div>
+    <div class="paths-route">
+        <span class="route-title">Select a path to take. <span class="item-cost" id="ember"></span></span>
+        <ul class="paths-list"></ul>
+        <button id="rebirth" disabled>Rebirth</button>
+    </div>
+</body>
+<script src="js/sfx.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/paths.js"></script>
+<script src="js/paths-ui.js"></script>
+<script>
+    const a = Number(localStorage.getItem("pathStage"));
+    const b = JSON.parse(localStorage.getItem("purchasedItems"))["rebirth"];
+    if (a+1 !== b) location.pathname = "/";
+
+    window.addEventListener("load", () => {
+        document.body.classList.add("loaded");
+    })
+</script>
+</html>

@@ -1,5 +1,5 @@
 let creekflows = 0;
-let mousePower = 1;
+let mousePower = gMult;
 let state = "first_visit";
 
 const elm_count = document.querySelector("#count");
@@ -48,8 +48,13 @@ function geekfill(i) {
 }
 
 // relative adjustment of creekflows
-function flow(i) {
+function elow(i) {
     creekflows+= i;
+    document.dispatchEvent(new CustomEvent("creekflow"));
+    elm_count.innerHTML = creekfill(creekflows);
+}
+function flow(i) {
+    creekflows+= i * fMult;
     document.dispatchEvent(new CustomEvent("creekflow"));
     elm_count.innerHTML = creekfill(creekflows);
 }
@@ -61,7 +66,7 @@ function glow(i) {
 
 // on click
 function creekflow() {
-    flow(mousePower);
+    elow(mousePower);
     switch (state) {
         case "first_visit":
             if (creekflows >= 10) {

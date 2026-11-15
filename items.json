@@ -108,5 +108,12 @@
     "description": "*sing a song about life*",
     "icon": "item.svg",
     "cost": 100000
+  },
+  {
+    "id": "rebirth",
+    "name": "Rebirth",
+    "description": "Start anew.",
+    "icon": "item.svg",
+    "cost": 10000000
   }
 ]

@@ -8,5 +8,7 @@ a:visited {
 body {
     --cursor-default: url("../img/cursor-default.svg") 12 8;
     --cursor-pointer: url("../img/cursor-pointer.svg") 15 10;
+    --cursor-grab: url("../img/cursor-grab.svg") 18 18;
+    --cursor-grabbing: url("../img/cursor-grabbing.svg") 18 18;
     cursor: var(--cursor-default), default;
 }
