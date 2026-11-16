@@ -36,7 +36,7 @@
     "name": "Hellbeast",
     "description": "unleash the hellbeast",
     "icon": "item.png",
-    "cost": 1000000,
+    "cost": 7774,
     "redeemOnce": true
   },
   {
@@ -114,6 +114,6 @@
     "name": "Rebirth",
     "description": "Start anew.",
     "icon": "item.svg",
-    "cost": 10000000
+    "cost": 1000000
   }
 ]
